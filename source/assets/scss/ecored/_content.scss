@@ -607,6 +607,7 @@ ul.submenu .nav-item a span {
 
 #mainContent {
     
+    margin-top: 100px;
     padding: 0 1rem;
 
     p {
@@ -663,8 +664,4 @@ ul.submenu .nav-item a span {
         background-color: $primary !important;
         color: $white !important;
     }
-}
-
-#footer {
-    margin-top: 100px;
 }
