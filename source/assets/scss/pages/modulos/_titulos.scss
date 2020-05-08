@@ -1,0 +1,43 @@
+.tituloPrincipal {
+  position: relative;
+  padding: 0;    
+  &__txt {
+    h2 {
+      color: #002B45;          
+    }
+  }
+  &__icono {
+    position: relative;    
+    left: -15px;
+    width: 60px;
+    height: 4px;
+    background-color: $orange;
+  }
+}
+
+.subtitulo-01 {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 0;   
+  &__txt {
+    order: 2;
+    padding-top: 1.25rem;
+    h3 {
+      color: #002B45; 
+      margin: 0;         
+    }
+  }
+  &__icon {    
+    order: 1;
+    margin-right: 0.75rem;
+    min-width: 60px;
+    height: auto;  
+    img {
+      width: 60px;
+    }  
+  }
+}

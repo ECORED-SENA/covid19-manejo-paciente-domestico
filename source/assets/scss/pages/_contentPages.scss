@@ -1,0 +1,195 @@
+/*-------------------------------
+SECCION OBJETIVOS TELESALUD
+--------------------------------*/
+
+.question {
+
+    margin-bottom: 2rem;
+
+    &-header {
+
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        font-size: 1.5rem;
+        font-weight: 900;
+        margin-bottom: 1.5rem;
+    }
+
+    &-number {
+
+        flex: 0 1 45px;
+        margin-right: 1rem;
+        padding: 0;
+        border-right: 5px solid rgba($brand-color-dark, 0.3);
+        color: rgba($brand-color-dark, 0.3);
+        font-size: 2.2rem;
+        font-weight: 700;
+        padding: 0 1rem;
+    }
+
+    &-title {
+
+        flex: 1 1 auto; 
+        color: $brand-color-dark;
+        align-self: center;
+        
+    }
+
+    &-body {
+        padding: 1rem;
+        //margin-left: 45px;
+
+        p {
+            margin-bottom: 1rem !important;
+        }
+    }
+
+
+}
+
+.section-header {
+    background-color: #59BFD6;
+    color: $white;
+    text-align: center;
+
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+
+.text-hero--white {
+  border-bottom: 4px solid #59C6C7;
+}
+
+.border-bottom-primary {
+    border-bottom: 3px solid;
+}
+
+.card__border-bottom {
+    border-bottom: 4px solid $brand-color-dark;
+}
+
+.card-border-bottom {
+    .card {
+        border-bottom: 4px solid $brand-color-dark;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+}
+
+.header-step {
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+}
+
+.header-step-number {
+    flex-basis: 36px;
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-right: 1em;
+    color: $brand-color-dark;
+}
+
+.header-step-title {
+    font-weight: 400;
+    flex: 1 1 auto;
+}
+
+.pasos-protocolo {
+
+    .row {
+        margin-top: 5rem !important;
+
+        &:first-child {
+            margin-top: 7rem !important;
+        }
+    }
+
+    .header-step {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .header-step--title {
+            font-size: .95em;
+        }
+    }
+
+}
+
+.card-highlight {
+    background: rgba(88, 190, 213, .5);    
+    //background-color: #B3D8E3;;
+
+    .header-step-number {
+        color: $primary;
+    }
+
+    .avatar-img {
+        object-fit: contain;
+    }
+}
+
+.card-transparent {
+    .card {
+        background-color: transparent;
+
+        .card-body {
+            background-color: #fff;
+        }
+    }
+}
+
+.text-light {
+    color: $brand-color-light;
+}
+
+
+.bg-intro-last {
+    padding: 35px 48px 24px;
+    background: #fff;
+    border-bottom: 11px solid $brand-color-dark;
+    border-top: 11px solid $brand-color-dark;
+}
+
+.bg-brand-color-dark {
+    background-color: $brand-color-dark;    
+}
+
+.text-brand-color-dark {
+    color: $brand-color-dark;   
+}
+
+.text-brand-color-light {
+    color: $brand-color-light;   
+}
+
+
+.border-bottom-brand-color-dark {
+    border-bottom: 10px solid $brand-color-dark;    
+}
+
+.border-top-brand-color-dark {
+    border-top: 10px solid $brand-color-dark;    
+}
+
+.bg-brand-color-light {
+    background-color: $brand-color-light;    
+}
+
+.bg-white {
+    background-color: $white;
+}
+
+.bg-like {
+    background-color: #CEE7D2 !important;
+}
+
+.bg-no-like {
+    background-color: #F5CCCC !important;
+}
+
+.bg-danger {
+    background-color: #E64663;    
+}

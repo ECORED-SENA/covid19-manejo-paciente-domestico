@@ -1,0 +1,61 @@
+[
+  {
+    "icon": "fa fa-home",
+    "slug": "external",
+    "title": "Volver al Inicio",
+    "path": "../"
+  },  
+  {
+        "icon": "video",
+        "slug": "introduccion",
+        "title": "1. Introducción",
+        "breadcrumb": ["Inicio","Introducción"],
+        "path": "pages/1-0-introduccion.html"        
+    },
+    {
+        "icon": "document",
+        "slug": "protocolo-recomendaciones-OMS",
+        "title": "2. Ruta informativa para el manejo del fallecido por COVID-19 en casa.",
+        "breadcrumb": ["Inicio","Protocolo o recomendación OPS/OMS para fallecido en casa"],
+        "path": "pages/2-0-direccionamiento.html"    
+                
+    },    
+    {
+      "icon": "video",
+      "slug": "limpieza-desinfeccion",
+      "title": "3. Limpieza y desinfección en el hogar",
+      "breadcrumb": [        
+        "Inicio",
+        "Limpieza y desinfección en el hogar"
+      ],
+      "path": "pages/3-0-limpieza-desinfeccion.html"
+    },
+    {
+        "icon": "video",
+        "slug": "manejo-duelo",
+        "title": "4. Manejo del duelo, Resignificación de la vida y la muerte, dignificación humana.",
+        "breadcrumb": ["Inicio","Manejo del duelo, Resignificación de la vida y la muerte, dignificación humana."],
+        "path": "pages/4-0-manejo_duelo.html"
+    },
+    {
+      "icon": "video",
+      "slug": "proceso-duelo",
+      "title": "5. El proceso del duelo en el contexto de la epidemia del COVID-19.",
+      "breadcrumb": [
+        "Inicio",
+        "Manejo del duelo, Resignificación de la vida y la muerte, dignificación humana."
+      ],
+      "path": "pages/5-0-proceso-duelo.html"
+    },
+    {
+      "icon": "video",
+      "slug": "estigma-social",
+      "title": "6. El estigma social asociado con el COVID-19.",
+      "breadcrumb": [
+        "Inicio",
+        "Manejo del duelo, Resignificación de la vida y la muerte, dignificación humana."
+      ],
+      "path": "pages/6-0-estigma-social.html"
+    }
+    
+]
