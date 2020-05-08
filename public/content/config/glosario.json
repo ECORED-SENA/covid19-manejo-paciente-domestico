@@ -1,0 +1,47 @@
+[
+  {
+    "letter": "c",
+    "terms": [
+      {
+        "title": "COVID-19",
+        "desciption": "Es una nueva enfermedad, causada por un nuevo coronavirus que no se había visto antes en seres humanos. El nombre de la enfermedad se escogió siguiendo las mejores prácticas establecidas por la Organización Mundial de la Salud (OMS) para asignar nombres a nuevas enfermedades infecciosas en seres humanos."
+      }
+    ]
+  }, 
+  {
+    "letter": "d",
+    "terms": [
+      {
+        "title": "Desinfección",
+        "desciption": "Es la destrucción de microorganismos en objetos inanimados, que asegura la eliminación de las formas vegetativa pero no la eliminación de esporas bacterianas."
+      }
+    ]
+  },
+  {
+    "letter": "E",
+    "terms": [
+      {
+        "title": "Equipo de protección personal",
+        "desciption": "Material, incluyendo la indumentaria (p. ej., batas, guantes, respiradores, lentes de seguridad, mascarillas de protección), utilizado para evitar la exposición o la contaminación de una persona por materiales peligrosos."
+      }
+    ]
+  },  
+  {
+    "letter": "l",
+    "terms": [
+      {
+        "title": "Limpieza",
+        "desciption": "Procedimiento mecánico que remueve el material extraño u orgánico de las superficies que puedan preservar bacterias al oponerse a la acción de biodegrabilidad de las soluciones antisépticas."
+      }
+    ]
+  },    
+  {
+    "letter": "s",
+    "terms": [
+      {
+        "title": "Sustancias Infecciosas",
+        "desciption": "Sustancias que contienen agentes patógenos con potencial infeccioso."
+      }
+    ]
+  }
+]
