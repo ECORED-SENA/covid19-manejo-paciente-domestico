@@ -3,7 +3,7 @@
     "icon": "fa fa-home",
     "slug": "external",
     "title": "Volver al Inicio",
-    "path": "../"
+    "path": "../index.html"
   },  
   {
         "icon": "video",
@@ -38,7 +38,7 @@
         "path": "pages/4-0-manejo_duelo.html"
     },
     {
-      "icon": "video",
+      "icon": "document",
       "slug": "proceso-duelo",
       "title": "5. El proceso del duelo en el contexto de la epidemia del COVID-19.",
       "breadcrumb": [
@@ -48,7 +48,7 @@
       "path": "pages/5-0-proceso-duelo.html"
     },
     {
-      "icon": "video",
+      "icon": "document",
       "slug": "estigma-social",
       "title": "6. El estigma social asociado con el COVID-19.",
       "breadcrumb": [

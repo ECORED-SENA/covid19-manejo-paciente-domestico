@@ -1,10 +1,11 @@
 doctype
+include mixins/creditosFooter
 html(lang="es")
   head
     meta(charset="UTF-8")
     meta(name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0")
     title EDT-MANEJO DEL CADÁVER SOSPECHOSO O CONFIRMADO POR COVID19 A NIVEL COMUNITARIO
-    meta(meta name="description" content="Este Evento de Divulgación Tecnológica (EDT), se desglosan en orden secuencial los cuidados y medidas a tener en cuenta por parte de la comunidad frente a las acciones a realizar de un fallecido sospechoso o confirmado por Covid 19.")    
+    meta(meta name="description" content="Este Evento de Divulgación Tecnológica (EDT), se desglosan en orden secuencial los cuidados y medidas a tener en cuenta por parte de la comunidad frente a las acciones a realizar de un fallecido sospechoso o confirmado por Covid 19. ")    
     link(rel="icon",type="image/svg+xml",href="assets/images/logos/senaLogo.svg")
     link(rel="stylesheet", href="assets/fonts/feather/feather.css")
     link(rel="stylesheet", href="assets/fonts/fontawesome/css/font-awesome.css")
@@ -75,10 +76,10 @@ html(lang="es")
                             span.nav-tema-item__icon.avatar-title.font-size-lg.bg-secondary-soft.rounded-circle.text-primary.font-weight-bold 1
                         .col.ml-n2
                           span.nav-tema-item__titulo 
-                            a(href="content/#page/introduccion/") Introducción
+                            a(href="content/index.html#page/introduccion/") Introducción
                         .col-auto
                           // Button
-                          a(href='content/#page/introduccion/').btn.btn-light.nav-tema-item__btn
+                          a(href='content/index.html#page/introduccion/').btn.btn-light.nav-tema-item__btn
                             | Ver más
                     li.list-group-item.nav-tema-item
                       .row.align-items-center
@@ -87,10 +88,10 @@ html(lang="es")
                             span.nav-tema-item__icon.avatar-title.font-size-lg.bg-secondary-soft.rounded-circle.text-primary.font-weight-bold 2
                         .col.ml-n2
                           span.nav-tema-item__titulo 
-                            a(href="content/#page/protocolo-recomendaciones-OMS/") Ruta informativa para el manejo del fallecido por COVID-19 en casa
+                            a(href="content/index.html#page/protocolo-recomendaciones-OMS/") Ruta informativa para el manejo del fallecido por COVID-19 en casa
                         .col-auto
                           // Button
-                          a(href='content/#page/protocolo-recomendaciones-OMS/').btn.btn-light.nav-tema-item__btn
+                          a(href='content/index.html#page/protocolo-recomendaciones-OMS/').btn.btn-light.nav-tema-item__btn
                             | Ver más
                     li.list-group-item.nav-tema-item
                       .row.align-items-center
@@ -99,10 +100,10 @@ html(lang="es")
                             span.nav-tema-item__icon.avatar-title.font-size-lg.bg-secondary-soft.rounded-circle.text-primary.font-weight-bold 3
                         .col.ml-n2
                           span.nav-tema-item__titulo 
-                            a(href="content/#page/limpieza-desinfeccion/") Limpieza y desinfección en el hogar
+                            a(href="content/index.html#page/limpieza-desinfeccion/") Limpieza y desinfección en el hogar
                         .col-auto
                           // Button
-                          a(href='content/#page/limpieza-desinfeccion/').btn.btn-light.nav-tema-item__btn
+                          a(href='content/index.html#page/limpieza-desinfeccion/').btn.btn-light.nav-tema-item__btn
                             | Ver más
                     li.list-group-item.nav-tema-item
                       .row.align-items-center
@@ -111,10 +112,10 @@ html(lang="es")
                             span.nav-tema-item__icon.avatar-title.font-size-lg.bg-secondary-soft.rounded-circle.text-primary.font-weight-bold 4
                         .col.ml-n2
                           span.nav-tema-item__titulo 
-                            a(href="content/#page/manejo-duelo/") Manejo del duelo, Resignificación de la vida y la muerte, dignificación humana 
+                            a(href="content/index.html#page/manejo-duelo/") Manejo del duelo, Resignificación de la vida y la muerte, dignificación humana 
                         .col-auto
                           // Button
-                          a(href='content/#page/manejo-duelo/').btn.btn-light.nav-tema-item__btn
+                          a(href='content/index.html#page/manejo-duelo/').btn.btn-light.nav-tema-item__btn
                             | Ver más
                     li.list-group-item.nav-tema-item
                       .row.align-items-center
@@ -123,10 +124,10 @@ html(lang="es")
                             span.nav-tema-item__icon.avatar-title.font-size-lg.bg-secondary-soft.rounded-circle.text-primary.font-weight-bold 5
                         .col.ml-n2
                           span.nav-tema-item__titulo 
-                            a(href="content/#page/proceso-duelo/") El proceso del duelo en el contexto de la epidemia del COVID-19 
+                            a(href="content/index.html#page/proceso-duelo/") El proceso del duelo en el contexto de la epidemia del COVID-19 
                         .col-auto
                           // Button
-                          a(href='content/#page/proceso-duelo/').btn.btn-light.nav-tema-item__btn
+                          a(href='content/index.html#page/proceso-duelo/').btn.btn-light.nav-tema-item__btn
                             | Ver más             
 
                     li.list-group-item.nav-tema-item
@@ -136,13 +137,13 @@ html(lang="es")
                             span.nav-tema-item__icon.avatar-title.font-size-lg.bg-secondary-soft.rounded-circle.text-primary.font-weight-bold 6
                         .col.ml-n2
                           span.nav-tema-item__titulo 
-                            a(href="content/#page/estigma-social/") El estigma social asociado con el COVID-19.
+                            a(href="content/index.html#page/estigma-social/") El estigma social asociado con el COVID-19.
                         .col-auto
                           // Button
-                          a(href='content/#page/estigma-social/').btn.btn-light.nav-tema-item__btn
+                          a(href='content/index.html#page/estigma-social/').btn.btn-light.nav-tema-item__btn
                             | Ver más                    
 
-    include content/includes/creditos.pug
+    +creditosFooter("assets/images/logos/senaLogo.svg")
 
     script(src="assets/js/plugins.js")
     script(src="content/js/pages.js")
