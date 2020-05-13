@@ -178,6 +178,12 @@ figure {
     background-position-y: center;
     padding: 0 0 40px;
 
+    .link-icon-external::before {
+        content: "\f08e";
+        font: normal normal normal 14px/1 FontAwesome;
+        padding: 0 7px;
+    }
+    
     section {
         padding-bottom: 2rem;
     }
